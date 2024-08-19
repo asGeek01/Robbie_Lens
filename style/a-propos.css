@@ -1,0 +1,24 @@
+.m_images div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.m_images {
+    padding-bottom: 40px;
+}
+.element_arriere {
+    width: 700px;
+    height: 415px;
+    background: #2C2E51;  
+    position: absolute;
+    z-index: 1;
+    left: 1000px;
+    bottom: 150px;
+}
+.a_propos {
+    width: 60%;
+    margin: auto;
+}

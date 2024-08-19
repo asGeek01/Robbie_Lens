@@ -1,0 +1,47 @@
+.titre_portfolio {
+    margin: 1em;
+}
+.section_photos {
+    background-color: white;
+}
+.section_photos h2 {
+    margin-bottom: 80px;
+}
+.grid_paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+.grid_portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+img[alt^="paysage"],
+img[alt^="portrait"] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid_paysages a,
+.grid_portraits a {
+    position: relative;
+}
+.grid_paysages a:hover .voir_photo,
+.grid_portraits a:hover .voir_photo {
+    display: flex;
+}
+.s_titre-portraits {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 996px) {
+    .grid_paysages,
+    .grid_portraits {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+}

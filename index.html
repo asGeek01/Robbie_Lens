@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/index.css">
+    
+    <!--Intégration des polices "Montserrat && Manrope"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">  
+    
+    <title>Accueil - Robbie Lens Photographie</title>
+</head>
+<body>
+    <!-- l'entête de la page--> 
+    <header>
+        <nav>
+            <a href="index.html" class="lien_icone"><img src="image/logo.png" alt="logo_Robbie_Lens"></a>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">À propos</a>
+                <a href="tarifs.html">Tarifs</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+        </nav>
+    </header>
+    
+    <!--corps de la page-->
+    <main>
+        <!--section un_projet-->
+        <section class="un_projet">
+        <div>
+            <h1>Robbie Lens <br> Photographie <br></h1>
+            <p>
+                Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans <br>
+                maintenant, j’exerce mon métier avec la passion qui m’anime : <br>
+                capturer l’essence de chaque instant. <br><br><br>
+            </p>
+            <div>
+                <a href="#votre_projet" class="button one">UN PROJET ? ÉCRIVEZ MOI</a>
+            </div>
+        </div>
+
+        <img src="image/robbie-lens.png" alt="image_Robbie_Lens">
+        </section>
+
+        <!--section dernier_projet-->
+        <section class="dernier_projet">
+            <table>
+                <button></button>
+            </table>
+            <h2>Mon dernier projet</h2>
+            <div>
+                <img src="image/accueil/element-1.png" alt="element-1">
+                <img src="image/accueil/element-2.png" alt="element-2">
+                <img src="image/accueil/element-3.png" alt="element-3">
+            </div>
+            <div>
+                <img src="image/accueil/element-4.png" alt="element-4">
+                <img src="image/accueil/element-5.png" alt="element-5">
+                <img src="image/accueil/element-6.png" alt="element-6">
+            </div>
+            <div>
+                <a href="portfolio.html" class="button two">VOIR MON PORTFOLIO</a>
+            </div>
+        </section>
+        <section class="votre_projet" id="votre_projet">
+            <!--Le formulaire-->
+            <form action="#" method="post">
+                <h1 class="small_size">Parlons de votre projet</h1>
+                <div class="field1">
+                    <div>
+                        <label for="nom">Nom</label><br>
+                        <input type="text" name="nom" id="nom" size="45px" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" name="email" id="email" size="45px" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" cols="100" rows="10" required></textarea>
+                </div>
+                <input type="submit" value="Envoyer" class="button two">
+                
+            </form>
+        </section>
+        <!--
+            <section class="votre_projet">
+            <div class="elemen1">Element 1</div>
+            <div class="elemen2">Element 2</div>
+            <div class="elemen3">Element 3</div>
+            <div class="elemen4">Element 4</div>
+            <div class="elemen5">Element 5</div>
+            <div class="elemen6">Element 6</div>
+            <div class="elemen7">Element 7</div>
+            <div class="elemen8">Element 8</div>
+            <div class="elemen9">Element 9</div>
+        </section>
+        -->
+        
+    </main>
+    
+    <!--pied de la page-->
+    <footer>
+        <a href="index.html" class="lien_icone"><img src="image/logo.png" alt="logo_Robbie_Lens"></a>
+        <div>
+            <a href="https://twitter.com/" target="_blank" class="lien_icone"><img src="image/twitter.png" alt="image_twitter"></a><br>
+            <a href="https://www.instagram.com" target="_blank" class="lien_icone"><img src="image/instagram.png" alt="image_instagram"></a><br>
+        </div>
+    </footer>
+
+</body>
+</html>
